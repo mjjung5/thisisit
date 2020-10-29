@@ -1,0 +1,143 @@
+.lotte_dfs_container{
+  position: relative;
+  min-height:100%;
+  overflow: hidden;
+}
+
+/* Header */
+.lotte_dfs_header_wrap {width: 100%;}
+
+.lotte_dfs_header_wrap .header_wrap{ 
+  position:relative;
+  padding: 12px 17px;
+  z-index:100;
+}
+
+.lotte_dfs_header_wrap .btn_category{
+   background: url('~@/img/icon_header.png') no-repeat -4px -5px;
+   width: 18px;
+   height: 18px;
+   background-size: 155px auto;
+ }
+
+ .lotte_dfs_header_wrap h1 {
+  display:inline-block;
+  margin-left: 17px;
+ }
+
+ .lotte_dfs_header_wrap .logo{
+   display:inline-block;
+
+   background: url('~@/img/ldf.png') no-repeat 0 0;
+   background-size: 100% 100%;
+}
+ .lotte_dfs_header_wrap .logo a{
+   display:block;
+   width: 24px;
+   height: 23px;
+
+}
+
+.lotte_dfs_header_wrap .header_right{
+  display:inline-block;
+  position:absolute;
+  top: 12px;
+  right: 17px;
+}
+
+
+.lotte_dfs_header_wrap .header_right button{
+  float: left;
+  text-indent: -9999px;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background: url('~@/img/icon_header.png') no-repeat 0 0;
+  background-size: 164px auto;
+
+}
+
+.lotte_dfs_header_wrap .header_right button:first-child {
+  margin-left: 0;
+}
+
+.lotte_dfs_header_wrap .header_right .btn_search{
+  background-position: -33px -3px
+
+}
+.lotte_dfs_header_wrap .header_right .icon_cart{
+  background-position: -128px -8px;
+  
+}
+.lotte_dfs_header_wrap .header_right .icon_lang{
+  background-position: -60px -5px;
+  margin-top: 2px;
+  
+}
+
+.lotte_dfs_header_wrap .header_right ul li:first-child{
+  margin: 4px 0 0 0;
+}
+
+/*Main*/
+
+.contents_area{
+  padding: 0 12px;
+  background: #fff;
+}
+
+.contents_area .main_visual_area{
+  position:relative;
+  margin: 0 -12px;
+  z-index: 10;
+}
+
+.contents_area .main_visual_area .main_inner_wrap{
+  width: 100%;
+  margin-top: -52px;
+
+}
+
+
+.contents_area .main_content_area{
+  margin: 0 -12px;
+  background: #dfdfdf;
+}
+
+.contents_area .round_module_wrap {
+  background: #fff;
+  margin-top: 10px;
+  padding: 0 12px 25px 12px;
+  border-radius: 20px 0 20px
+}
+.contents_area .nobottom_module_wrap {
+  background: #fff;
+  margin-top: 10px;
+  padding: 0 12px;
+  border-radius: 20px 0 20px
+}
+
+.contents_area .main_module_wrap{
+  background: #fff;
+  margin-top: 10px;
+  padding: 0 12px 25px 12px;
+}
+
+.contents_area .main_module_wrap.round_type{
+  border-radius: 20px 0 20px
+}
+.contents_area .main_module_wrap.no_bottom{
+  padding-bottom: 0;
+}
+
+.contents_area .round_module_wrap .main_contents{
+  position:relative;
+  background: #fff;
+}
+
+/* Footer */
+.lotte_footer {
+  position:relative;
+  background: #f5f5f5;
+  text-align: center;
+}
