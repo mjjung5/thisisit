@@ -84,7 +84,7 @@
   display:block;
   width:26px;
   height: 26px;
-  background: url('/img/icon_plus.png') no-repeat center;
+  background: url('~@/img/icon_plus.png') no-repeat center;
   background-size: 13px;
 
 }
@@ -130,7 +130,7 @@
   position:absolute;
   bottom: 0;
   right: -1px;
-  background: rgba(0,0,0,0.3) url('/img/icon_below.png') no-repeat center;
+  background: rgba(0,0,0,0.3) url('~@/img/icon_below.png') no-repeat center;
   background-size: 21px;
 }
 
@@ -151,7 +151,7 @@
   top: 18px;
   right: 12px;
   text-indent: -9999px;
-  background: url('/img/icon_arrow.png') no-repeat left top;
+  background: url('~@/img/icon_arrow.png') no-repeat left top;
   background-size: 8px auto;
 }
 
@@ -171,7 +171,7 @@
   position:absolute;
   top:-2px;
   left:-25px;
-  background: url('/img/icon_timeSale.png') no-repeat center;
+  background: url('~@/img/icon_timeSale.png') no-repeat center;
   background-size: 10px auto;
 }
 .contents_area .main_module_wrap .time span:after{
@@ -239,7 +239,7 @@
   display: block;
   width: 15px;
   height: 15px;
-  background: url('/img/icon_arrow_right.png') no-repeat center;
+  background: url('~@/img/icon_arrow_right.png') no-repeat center;
   background-size: 19px auto;
   position:absolute;
   top: 23px;
@@ -586,12 +586,12 @@
 }
 
 .contents_area .best_prod_wrap .cate_list ul li .best_tab{
-  background: url('/img/icon_best01.png') no-repeat 0 0;
+  background: url('~@/img/icon_best01.png') no-repeat 0 0;
   background-size: 17px auto;
   padding-left: 23px;
 }
 .contents_area .best_prod_wrap .cate_list ul li .wekely_tab{
-  background: url('/img/icon_best02.png') no-repeat 0 0;
+  background: url('~@/img/icon_best02.png') no-repeat 0 0;
   background-size: 17px auto;
   padding-left: 23px;
 }
@@ -693,7 +693,7 @@
   display:inline-block;
   width: 10px;
   height: 10px;
-  background: url('/img/icon_arrow_up.png') no-repeat 0 1px;
+  background: url('~@/img/icon_arrow_up.png') no-repeat 0 1px;
   background-size: 10px auto;
   margin-left: 5px;
 }
@@ -730,7 +730,7 @@
   display: inline-block;
   width: 14px;
   height: 10px;
-  background: url('/img/icon_arrow.png') no-repeat 5px 1px;
+  background: url('~@/img/icon_arrow.png') no-repeat 5px 1px;
   transform: rotate(90deg);
   background-size: 5px auto;
 }
@@ -807,15 +807,15 @@
   margin-left:0;
 }
 .lotte_footer .sns_icon_set .youtube{
-  background: #fff url('/img/icon_sns_youtube.png') no-repeat 3px 6px;
+  background: #fff url('~@/img/icon_sns_youtube.png') no-repeat 3px 6px;
   background-size: 19px auto;
 }
 .lotte_footer .sns_icon_set .instagram{
-  background: #fff url('/img/icon_sns_instagram.png') no-repeat 3px 4px;
+  background: #fff url('~@/img/icon_sns_instagram.png') no-repeat 3px 4px;
   background-size: 19px auto;
 }
 .lotte_footer .sns_icon_set .facebook{
-  background: #fff url('/img/icon_sns_facebook.png') no-repeat 3px 4px;
+  background: #fff url('~@/img/icon_sns_facebook.png') no-repeat 3px 4px;
   background-size: 19px auto;
 }
 

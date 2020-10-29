@@ -14,7 +14,7 @@
 }
 
 .lotte_dfs_header_wrap .btn_category{
-   background: url('/img/icon_header.png') no-repeat -4px -5px;
+   background: url('~@/img/icon_header.png') no-repeat -4px -5px;
    width: 18px;
    height: 18px;
    background-size: 155px auto;
@@ -28,7 +28,7 @@
  .lotte_dfs_header_wrap .logo{
    display:inline-block;
 
-   background: url('/img/ldf.png') no-repeat 0 0;
+   background: url('~@/img/ldf.png') no-repeat 0 0;
    background-size: 100% 100%;
 }
  .lotte_dfs_header_wrap .logo a{
@@ -52,7 +52,7 @@
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  background: url('/img/icon_header.png') no-repeat 0 0;
+  background: url('~@/img/icon_header.png') no-repeat 0 0;
   background-size: 164px auto;
 
 }
