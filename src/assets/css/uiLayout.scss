@@ -11,6 +11,11 @@
   position:relative;
   padding: 12px 17px;
   z-index:100;
+
+  &.new{
+    padding: 0;
+    
+  }
 }
 
 .lotte_dfs_header_wrap .btn_category{

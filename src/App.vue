@@ -2,12 +2,13 @@
   <div id="app">
     <section class="lotte_dfs_container">
       <header class="lotte_dfs_header_wrap">
-        <div class="header_wrap">
-          <button type="button" class="btn_category"></button>
+        <div class="header_wrap new">
+        <headerNew/>
+          <!--<button type="button" class="btn_category"></button>
           <h1 class="logo">
             <a href="#none"><span class="hidden_txt">로고</span></a>
-          </h1>
-          <div class="header_right">
+          </h1> 
+           <div class="header_right">
             <button type="button" class="btn_search">
               검색
             </button>
@@ -16,8 +17,8 @@
             </button>
             <button type="button" class="icon_lang">
               언어변경
-          </button>
-          </div>
+            </button>
+          </div> -->
         </div>
       </header>
 
@@ -971,10 +972,12 @@
 </template>
 
 <script>
+import headerNew from './components/headerNew.vue';
 
 export default {
   name: "App",
   components: {
+    headerNew
   },
 
   data(){
