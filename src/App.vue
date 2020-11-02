@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <section class="lotte_dfs_container">
+    <mobileLayout />
+    <!-- <section class="lotte_dfs_container">
       <header class="lotte_dfs_header_wrap">
         <div class="header_wrap new">
-        <headerNew/>
-          <!--<button type="button" class="btn_category"></button>
+         <headerNew/>
+          <button type="butston" class="btn_category"></button>
           <h1 class="logo">
             <a href="#none"><span class="hidden_txt">로고</span></a>
           </h1> 
@@ -18,11 +19,12 @@
             <button type="button" class="icon_lang">
               언어변경
             </button>
-          </div> -->
+          </div> 
         </div>
-      </header>
+      </header>-->
 
-      <main class="contents_area">
+
+      <!-- <main class="contents_area">
         <div class="main_visual_area">
           <div class="main_inner_wrap">
             <ul>
@@ -837,9 +839,9 @@
             </div>
           </div>
         </div>
-      </main>
+      </main> -->
 
-      <div class="actionBar">
+      <!-- <div class="actionBar">
         <div class="actionBtn">
           <ul>
             <li>
@@ -884,9 +886,10 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> -->
       
-      <footer class="lotte_footer">
+      <!-- <Footer/>
+     <footer class="lotte_footer">
         <div class="currency">
           <span class="today">오늘의 환율</span>
           <span class="price">$1 = 1,187.5원</span>
@@ -966,18 +969,19 @@
           </ul>
         </div>
         <div class="copy_right">Copyright ⓒ Lottehotel. All rights Reserved.</div>
-      </footer>
-    </section>
+      </footer> -->
+    <!-- </section>  --> 
   </div>
 </template>
 
 <script>
-import headerNew from './components/headerNew.vue';
+import mobileLayout from './layouts/MobileLayout.vue';
 
 export default {
   name: "App",
   components: {
-    headerNew
+    mobileLayout
+
   },
 
   data(){
