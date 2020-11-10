@@ -1,15 +1,8 @@
 <template>
-  <div 
-  class="lotte_dfs_container"
-  ref="mobileLayout"
-  >
+  <div class="lotte_dfs_container" ref="mobileLayout">
     <Header />
-    <main
-    class="contents_area"
-    role="main">
-    </main>
-    <Footer /> 
-
+    <main class="contents_area" role="main"></main>
+    <Footer />
   </div>
 </template>
 
@@ -17,19 +10,17 @@
 import Header from "./LayoutHeader.vue"
 import Footer from "./LayoutFooter.vue"
 export default {
-  
-  data(){
-
-  },
+  data() {},
 
   components: {
     Header,
     Footer
   }
-
 }
 </script>
 
-<style lang="scss">
-  
+<style lang="scss" scoped>
+.contents_area{
+  margin-top: 40px;
+}
 </style>

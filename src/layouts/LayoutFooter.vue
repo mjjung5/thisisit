@@ -1,8 +1,20 @@
 <template>
-  <footer class="lotte_footer">
-    <div class="currency">
-      <span class="today">오늘의 환율</span>
-      <span class="price">$1 = 1,187.5원</span>
+  <footer class="lotteNewFooter">
+    <div class="footerTopWrap">
+      <div class="footerCurrency">
+        <dl>
+          <dt>오늘의 환율</dt>
+          <dd>$1=1,182원</dd>
+        </dl>
+        <!-- <span class="today">오늘의 환율</span> -->
+        <!-- <span class="price">$1 = 1,187.5원</span> -->
+      </div>
+      <div class="footerCustomer">
+        <dl>
+          <dt>고객센터</dt>
+          <dd>1688-3000</dd>
+        </dl>
+      </div>
     </div>
     <div class="footer_menu">
       <ul>
@@ -84,12 +96,43 @@
 
 <script>
 export default {
-  
-  data(){},
-
+  data() {}
 }
 </script>
 
-<style lang="scss">
-  
+<style lang="scss" scoped>
+.lotteNewFooter{
+  .footerTopWrap{
+    display: flex;
+
+    > div {
+      display: inline-flex; 
+      dl {
+        dt{
+          font-size:14px;
+          color: #999;
+          padding-bottom: 5px;
+        }
+
+        dd{
+          font-size:13px;
+          color: #000;
+
+        }
+      }
+    }
+
+    .footerCurrency{
+      flex:1;
+      justify-content: flex-start;
+
+    }
+
+    .footerCustomer{
+      justify-content: flex-end;
+
+
+    }
+  }
+}
 </style>

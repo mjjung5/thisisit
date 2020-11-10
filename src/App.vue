@@ -23,8 +23,7 @@
         </div>
       </header>-->
 
-
-      <!-- <main class="contents_area">
+    <!-- <main class="contents_area">
         <div class="main_visual_area">
           <div class="main_inner_wrap">
             <ul>
@@ -841,7 +840,7 @@
         </div>
       </main> -->
 
-      <!-- <div class="actionBar">
+    <!-- <div class="actionBar">
         <div class="actionBtn">
           <ul>
             <li>
@@ -887,8 +886,8 @@
           </ul>
         </div>
       </div> -->
-      
-      <!-- <Footer/>
+
+    <!-- <Footer/>
      <footer class="lotte_footer">
         <div class="currency">
           <span class="today">오늘의 환율</span>
@@ -970,24 +969,22 @@
         </div>
         <div class="copy_right">Copyright ⓒ Lottehotel. All rights Reserved.</div>
       </footer> -->
-    <!-- </section>  --> 
+    <!-- </section>  -->
   </div>
 </template>
 
 <script>
-import mobileLayout from './layouts/MobileLayout.vue';
+import mobileLayout from "./layouts/MobileLayout.vue"
 
 export default {
   name: "App",
   components: {
     mobileLayout
-
   },
 
-  data(){
+  data() {
     return {}
   }
-  
 };
 </script>
 
