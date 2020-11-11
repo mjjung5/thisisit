@@ -109,7 +109,7 @@ export default {
           }
         ]
       }
-    }
+    };
   },
 
   created() {},
@@ -121,7 +121,7 @@ export default {
       this.currentTab = idx;
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

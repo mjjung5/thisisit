@@ -1,34 +1,33 @@
 <template>
   <footer class="lotteNewFooter">
     <div class="footerTopWrap">
-      <div class="footerCurrency">
-        <dl>
+      <div class="footerInform">
+        <dl class="currency">
           <dt>오늘의 환율</dt>
           <dd>$1=1,182원</dd>
         </dl>
-        <!-- <span class="today">오늘의 환율</span> -->
-        <!-- <span class="price">$1 = 1,187.5원</span> -->
-      </div>
-      <div class="footerCustomer">
-        <dl>
+
+        <dl class="customer">
           <dt>고객센터</dt>
           <dd>1688-3000</dd>
         </dl>
       </div>
+
+      <div class="iconChat">
+        <button type="button">
+          <span>1:1 채팅</span>
+        </button>
+      </div>
     </div>
     <div class="footer_menu">
       <ul>
-        <li>
-          <a href="#none">주문가능시간</a>
-        </li>
-        <li>
-          <a href="#none">인도장안내</a>
-        </li>
-        <li>
-          <a href="#none">고객센터</a>
-        </li>
-        <li>
-          <a href="#none">임직원등록</a>
+        <li
+          v-for="(item, index) in moduleUI.footerMenu"
+          :key="index"
+          :class="{ on: currentTab === index }"
+          @click="footerMenuClick"
+        >
+          <a href="#none">{{ item }}</a>
         </li>
       </ul>
     </div>
@@ -96,42 +95,100 @@
 
 <script>
 export default {
-  data() {}
-}
+  data() {
+    return {
+      currentTab: 0,
+      moduleUI: {
+        footerMenu: [
+          "개인정보처리방침",
+          "그린회원약관",
+          "영상정보처리관리방침",
+          "이용약관"
+        ]
+      }
+    };
+  },
+
+  methods: {
+    footerMenuClick() {
+      console.log("click footer");
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>
-.lotteNewFooter{
-  .footerTopWrap{
+.lotteNewFooter {
+  .footerTopWrap {
     display: flex;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 20px 15px;
 
-    > div {
-      display: inline-flex; 
+    .footerInform {
+      display: flex;
+      width: 80%;
+
       dl {
-        dt{
-          font-size:14px;
+        &.currency {
+          flex: 1;
+          justify-content: flex-start;
+        }
+
+        &.customer {
+          justify-content: flex-end;
+        }
+
+        dt {
+          font-size: 14px;
           color: #999;
           padding-bottom: 5px;
         }
 
-        dd{
-          font-size:13px;
+        dd {
+          font-size: 14px;
           color: #000;
-
+          font-weight: bold;
         }
       }
     }
+    .iconChat {
+      margin: 0 auto;
 
-    .footerCurrency{
-      flex:1;
-      justify-content: flex-start;
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 1px;
+        background: #ccc;
+        margin: 0 10px 0 11px;
+        height: 30px;
+      }
 
+      button {
+        span {
+          font-size: 14px;
+          font-weight: bold;
+          text-align: center;
+        }
+      }
     }
+  }
 
-    .footerCustomer{
-      justify-content: flex-end;
+  .footer_menu {
+    font-size: 12px;
+    color: #000;
+    padding: 20px 0;
 
+    ul {
+      li {
+        float: left;
+        margin-left: 15px;
+        text-align: center;
 
+        &.on {
+          font-weight: bold;
+        }
+      }
     }
   }
 }

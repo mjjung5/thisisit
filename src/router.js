@@ -1,5 +1,5 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import Vue from 'vue';
+import Router from 'vue-router';
 // import RoutesRoot from './router/index.js'
 // import RoutesAccount from './router/account.js'
 // import RoutesActionBar from './router/action_bar.js'
