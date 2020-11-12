@@ -725,15 +725,7 @@
   margin: 0 auto;
 }
 
-.lotte_footer .business_info .btn_more:after{
-  content: '';
-  display: inline-block;
-  width: 14px;
-  height: 10px;
-  background: url('~@/assets/img/icon_arrow.png') no-repeat 5px 1px;
-  transform: rotate(90deg);
-  background-size: 5px auto;
-}
+
 .lotte_footer .business_info .ceo_info{
   display:none;
 }
